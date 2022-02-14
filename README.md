@@ -22,7 +22,7 @@ Steps for executing the test cases
     -cmd prompt- navigate to the directory the project is located on the system
    Run the below command, amking changes to the locations and file name for test cases excel(data is stored)and the testngAPI file.
     
-  mvn clean install test  -DTestDataFilePath="C:\AutomationFramework\src\Data\TestCases.xlsx" -Dsurefire.suiteXmlFiles=testngAPI.xml
+  mvn clean install test  -DTestDataFilePath="C:\APITesting-master\src\Data\TestCases.xlsx" -Dsurefire.suiteXmlFiles=testngAPI.xml
 
 5. After execution the result is generated in the test-output folder as extentreport.html and can be viewed in the browser
 
