@@ -82,6 +82,7 @@ public class CommonFunc {
                 }else{
                     logFail("Expected Value  Found: "+ expectedValue);
                 }
+                break;
             default:
                 logFail(" PLEASE PROVIDE CORRECT EXPECTED RESPONSE DATA TYPE ");
         }
