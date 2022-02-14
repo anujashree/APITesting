@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "API_AUTOMATION">
+    <test name = "Test_GetSatellitePosition_API">
+        <classes>
+            <class name = "API_AutomationTestCases.Test_GetSatellitePosition_API" />
+        </classes>
+    </test>
+    <test name = "Test_GetSatelliteTles_API">
+        <classes>
+            <class name = "API_AutomationTestCases.Test_GetSatelliteTles_API" />
+        </classes>
+    </test>
+</suite>
